@@ -4,12 +4,8 @@ import { BotonClac } from '../components/BotonClac';
 import { styles } from '../theme/appTheme';
 import { useCalculadora } from '../hooks/useCalculadora';
 
-
-
-
-
 export const CalculadoraScreen = () => {
-   
+
     const {
         numeroAnterior,
         numero,
@@ -23,7 +19,7 @@ export const CalculadoraScreen = () => {
         btnSumar,
         btnDelete
 
-    }= useCalculadora()
+    } = useCalculadora()
 
 
     return (
